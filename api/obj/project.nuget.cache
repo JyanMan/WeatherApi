@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "n+Cbh28hNEo=",
+  "dgSpecHash": "eQI1pqefvRw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\OneDrive\\Desktop\\Jian J files\\Programming\\c#\\RoadMapProjects\\WeatherApi\\WeatherApi.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\OneDrive\\Desktop\\Jian J files\\Programming\\c#\\RoadMapProjects\\WeatherApi\\api\\WeatherApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.4\\microsoft.entityframeworkcore.9.0.4.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.4\\microsoft.entityframeworkcore.abstractions.9.0.4.nupkg.sha512",
