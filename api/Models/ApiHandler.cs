@@ -7,7 +7,7 @@ public class ApiHandler
     public required string url { get; set; }
     public ApiHandler() {}
 
-    public HttpResponseMessage SendRequest()
+    public async Task<HttpResponseMessage> SendRequest()
     {
         using (var client = new HttpClient())
         {
@@ -22,7 +22,7 @@ public class ApiHandler
 
 
             HttpRequestMessage request = new(HttpMethod.Get, url);
-            HttpResponseMessage response = client.Send(request);
+            HttpResponseMessage response = await client.SendAsync(request);
             if (response.IsSuccessStatusCode)
             {
                 Console.WriteLine("Success");
