@@ -7,7 +7,17 @@
 </head>
 <body>
     <div id="weather-info-container">
-        <label id="weather-info"></label>
+        <h2 id="current-conditions-label">Current Weather Conditions</h2>
+        <label for="location">Location</label>
+        <input id="location"/>
+        <button onclick="getData()"></button>
+        <ul>
+            <li>Condition: <label id="condition"></label></li>
+            <li>Temperature: <label id="temperature"></label></li>
+            <li>Feelslike: <label id="feelslike"></label></li>
+            <li>Humidity: <label id="humidity"></label></li>
+            <li>Pressure: <label id="pressure"></label></li>
+        </ul>
     </div>
     <script src="index.js"></script>
 </body>
